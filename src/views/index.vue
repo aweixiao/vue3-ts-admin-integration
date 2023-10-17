@@ -6,5 +6,6 @@ import SvgIcon from '@/components/SvgIcon/index.vue';
   <div style="width: 100%">
     <Drawer/>
     <SvgIcon/>
+    1
   </div>
 </template>
