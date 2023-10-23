@@ -4,8 +4,8 @@ import SvgIcon from '@/components/SvgIcon/index.vue';
 </script>
 <template>
   <div style="width: 100%">
-    <Drawer/>
-    <SvgIcon/>
+    <Drawer />
+    <SvgIcon />
     1
   </div>
 </template>

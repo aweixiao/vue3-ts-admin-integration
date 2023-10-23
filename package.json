@@ -11,11 +11,13 @@
   "dependencies": {
     "@types/node": "^20.4.2",
     "element-plus": "^2.3.8",
+    "path-browserify": "^1.0.1",
     "sass": "^1.64.0",
     "vue": "^3.2.47",
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
+    "@types/path-browserify": "^1.0.0",
     "@vitejs/plugin-vue": "^4.1.0",
     "typescript": "^5.0.2",
     "unplugin-auto-import": "^0.16.6",
