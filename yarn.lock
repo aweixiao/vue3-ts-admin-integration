@@ -106,6 +106,11 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-20.4.2.tgz"
   integrity sha512-Dd0BYtWgnWJKwO1jkmTrzofjK2QXXcai0dmtzvIBhcA+RsG5h8R3xlyta0kGOZRNfL9GuRtb1knmPEhQrePCEw==
 
+"@types/path-browserify@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/@types/path-browserify/-/path-browserify-1.0.0.tgz"
+  integrity sha512-XMCcyhSvxcch8b7rZAtFAaierBYdeHXVvg2iYnxOV0MCQHmPuRRmGZPFDRzPayxcGiiSL1Te9UIO+f3cuj0tfw==
+
 "@types/svgo@^2.6.1":
   version "2.6.4"
   resolved "https://registry.npmjs.org/@types/svgo/-/svgo-2.6.4.tgz"
@@ -1378,6 +1383,11 @@ pascalcase@^0.1.1:
   version "0.1.1"
   resolved "https://registry.npmjs.org/pascalcase/-/pascalcase-0.1.1.tgz"
   integrity sha512-XHXfu/yOQRy9vYOtUDVMN60OEJjW013GoObG1o+xwQTpB9eYJX/BjXMsdW13ZDPruFhYYn0AG22w0xgQMwl3Nw==
+
+path-browserify@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/path-browserify/-/path-browserify-1.0.1.tgz"
+  integrity sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==
 
 path-parse@^1.0.7:
   version "1.0.7"
