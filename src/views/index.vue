@@ -5,7 +5,7 @@ import SvgIcon from '@/components/SvgIcon/index.vue';
 <template>
   <div style="width: 100%">
     <Drawer />
-    <SvgIcon />
+    <SvgIcon name="phone" size="large" color="success"></SvgIcon>
     1
   </div>
 </template>

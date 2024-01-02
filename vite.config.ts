@@ -18,7 +18,8 @@ export default defineConfig({
             resolvers: [ElementPlusResolver()],
         }),
         createSvgIconsPlugin({
-            iconDirs: [path.resolve(process.cwd(), 'src/assets/icons')]
+            iconDirs: [path.resolve(process.cwd(), 'src/assets/icons/svg')],
+            symbolId: 'icon-[dir]-[name]'
         })
     ],
     resolve: {
