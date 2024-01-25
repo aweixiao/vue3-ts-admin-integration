@@ -1,0 +1,63 @@
+.sidebar-container {
+    transition: width 0.28s;
+    width: 200px !important;
+    background-color: #9cb3ff;
+    height: 100%;
+    position: fixed;
+    font-size: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+    overflow: hidden;
+    box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
+    .scrollbar-wrapper{
+        overflow-x: hidden !important;
+    }
+    // menu菜单
+    .el-menu {
+        background-color: #9cb3ff !important;
+        border: none !important;
+
+        .el-menu-item.is-active {
+            // background-color: #c4d1fa !important;
+            color: #fff;
+        }
+        .el-menu-item:hover {
+            background-color: #b8c8fa !important;
+        }
+
+        .el-sub-menu {
+            display: grid;
+            width: 100%;
+            .el-sub-menu__title:hover {
+                background-color: #b8c8fa;
+            }
+            .el-menu-item:hover {
+                background-color: #979797 !important;
+            }
+            .el-menu-item {
+                background-color: #afb7d3 !important;
+            }
+            .el-menu-item.is-active {
+                // background-color: #c4d1fa !important;
+                color: #fff;
+            }
+        }
+    }
+}
+.hideSidebar {
+    width: 54px !important;
+}
+.side_bar {
+    .scrollbar {
+        height: calc(100% - 50px);
+    }
+}
+
+.log {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 16px;
+}

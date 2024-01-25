@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {defineProps, withDefaults, computed} from "vue";
+import {computed} from "vue";
 
 defineOptions({
   name: "SvgIcon"
@@ -25,7 +25,7 @@ const props = withDefaults(
     {
       prefix: "#icon-",
       size: "default",
-      color: "default"
+      color: ""
     }
 )
 // 大小默认值
@@ -52,7 +52,6 @@ const sizeRef = computed(() => {
   }
   return props.size
 })
-console.log(sizeMap)
 </script>
 
 <template>
@@ -68,5 +67,8 @@ console.log(sizeMap)
 .svg-icon {
   width: 1em;
   height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }
 </style>
